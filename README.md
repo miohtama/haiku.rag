@@ -25,6 +25,7 @@ Retrieval-Augmented Generation (RAG) library built on LanceDB.
 
 ```bash
 # Install
+# Python 3.12 or newer required
 uv pip install haiku.rag
 
 # Add documents
@@ -157,6 +158,7 @@ haiku-rag a2aclient
 ```
 
 The A2A agent provides:
+
 - Multi-turn dialogue with context
 - Intelligent multi-search for complex questions
 - Source citations with titles and URIs
